@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/database.css">
+    <title>ECommerce DataBase</title>
+</head>
+<body>
+    <div id='tableContainer'>
+        <table id = 'userContainer'>
+        <thead id = 'userHeading'>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for(let i=0;i<name.length;i++) {%>
+                <tr>
+                    <td>
+                        <%= name[i].first_name %>
+                    </td>
+                    <td>
+                        <%= name[i].last_name %>
+                    </td>
+                </tr>
+                <% } %>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

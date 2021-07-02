@@ -1,0 +1,33 @@
+#tableContainer{
+    min-width: 400px;
+    max-width: 1000px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#userContainer{
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #009578;
+}
+
+#userContainer thead tr {
+    background-color: #009578;
+    color: #fff;
+}
+
+#userContainer th,
+#userContainer td{
+    text-align: left;
+    padding: 9px 18px;
+    
+}
+
+#userContainer th{
+    font-weight: bolder;
+}
+
+#userContainer tbody tr:nth-of-type(even){
+    background-color: #eee;
+}
